@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<NetworkLink>
+  <name>Gavin's Unofficial Overlay of the Ordnance Survey Maps</name>
+  <author>Gavin Brock</author>
+  <open>0</open>
+  <description><![CDATA[© Crown Copyright and database right 2012. All rights reserved. <a href="http://openspace.ordnancesurvey.co.uk/openspace/developeragreement.html#enduserlicense">End User License Agreement</a>.<p/><hr/>KML mashup by <a href="http://brock-family.org/gavin">Gavin Brock</a>.]]></description>
+  <LookAt id="khLookAt2131223">
+    <longitude>-1.450152</longitude>
+    <latitude>50.9309</latitude>
+    <altitude>0</altitude>
+    <range>4001</range>
+    <tilt>0</tilt>
+    <heading>0</heading>
+  </LookAt>
+  <Link>
+    <href>http://brock-family.org/osmaps?</href>
+    <refreshInterval>2</refreshInterval>
+    <viewRefreshMode>onStop</viewRefreshMode>
+    <viewRefreshTime>3</viewRefreshTime>
+    <viewFormat>BBOX=[lookatLat],[lookatLon],[lookatRange]</viewFormat>
+  </Link>
+</NetworkLink>
+</kml>
